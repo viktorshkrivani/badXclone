@@ -1,0 +1,17 @@
+schedule a time (DONE)
+
+10 commits across 10 diff days -()
+
+Database backend Clone
+-Allow users to create accounts and login
+ (no delete account or email verification)
+
+-Allow follow/unfollow people
+-See the list of newest tweets 
+-See the list of the newest tweets of those they follow on their home page
+-/username will show the list of tweets of that user
+-allow the logged in user to follow - if the username doesn't exist, give a generic error page
+
+-include an option to 'like' a tweet, include a count of likes when displaying tweets
+
+-create new tweets including uploading images.

@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-foryou {
+  position: sticky;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.91); 
+  padding: 1rem;
+  border-bottom: 1px solid #444; 
+  color: #fff;
+  max-width: 588px;
+  margin-left: 361px;
+  margin-right: auto;
+  font-size: 10px;
+}
+
+.header-foryou h1{
+    margin-left: 20px;
+    
+}
+.tweet-header {
+  display: flex;
+  align-items: center;
+}
+
+.profile-box2 {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%; 
+  border: 1px solid #444; 
+  overflow: hidden; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -65px;
+  margin-left: 17px;
+}
+
+.profile-box2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 50%; 
+}
+
+.tweet {
+  border-top: 1px solid #444;
+  padding: 10px;
+  margin-top: -19px;
+  margin-bottom: 40px;
+  margin-left: 360px;
+  margin-right: auto;
+  background-color: transparent;
+  max-width: 601px; 
+}
+
+.tweet img {
+  max-width: 485px;
+  max-height: 580px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-left: 78px;
+  margin-bottom: 20px;
+  margin-top: 13px;
+}
+
+.text-area-with-image {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid #777;
+  margin-bottom: 10px;
+  resize: none;
+}
+
+.embedded-image {
+  max-width: 100px;
+  display: block;
+  margin-top: 10px;
+}
+
+.tweetarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 387px;
+  max-width: 558px; 
+}
+
+.tweetarea h1, .tweetarea h2, .tweetarea h3, .tweetarea h4, .tweetarea h5, .tweetarea h6 {
+  color: #fff;
+}
+
+
+.tweet p{
+    color: #fff;
+    font-size: 14px;
+    margin-left: 80px;
+    margin-bottom: -22px;
+    padding-bottom: 24px;
+    margin-top: -23px;
+
+}
+
+.tweet p small {
+  color: #fff;
+  font-size: 8px;
+  margin-top: 10px;
+  margin-bottom: 20px ;
+  
+  
+  
+}
+
+.tweet p strong {
+  color: #fff;
+  font-size: 16px;
+
+  
+  
+}
+.like-btn, .unlike-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 27px;
+    margin-left: 80px;
+    color: #536471; 
+}
+
+.like-btn.liked, .unlike-btn {
+    color: #E0245E; 
+}
+
+.like-btn svg, .unlike-btn svg {
+    width: 24px;
+    height: 24px;
+    transition: fill 0.2s ease;
+}
+
+.like-icon {
+    fill: #536471; 
+}
+
+.unlike-icon {
+    fill: #E0245E; 
+}
+
+.like-btn:hover svg {
+    fill: #E0245E; 
+}
+
+.like-btn:active svg, .unlike-btn:active svg {
+    transform: scale(0.9);
+}
+
+.likes-count {
+    font-size: 12px;
+    color: #536471;
+    margin-left: 4px;
+}
+
+.like-btn + .likes-count {
+    color: #536471; 
+}
+
+.unlike-btn + .likes-count {
+    color: #E0245E; 
+}
+.textarea-container {
+  width: 600px;
+  padding: 0px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  object-fit: contain;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.textarea-container textarea {
+  width: 100%;
+  height: 30px;
+  padding: 6px;
+  font-size: 20px;
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  box-shadow: none;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.textarea-container textarea:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.textarea-container textarea::placeholder {
+  color: #444;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.image-preview-container {
+  margin-top: 2px;
+  display: block; 
+  justify-content: center; 
+  width: 100%; 
+  
+}
+
+.image-preview-container img {
+  max-width: 485px; 
+  max-height: 580px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-left: 18px;
+}
+
+.image-upload-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 621px;
+  margin-left: -37px;
+  
+}
+
+.tweet-button-container {
+  margin-left: 10px;
+}
+
+.svg-label svg {
+  width: 20px;
+  height: 20px;
+  margin-left: 90px;
+  
+}
+
+.svg-label svg:hover {
+  transform: scale(1.1);
+  fill: #3399ff;
+}
+
+.post-button {
+  background-color: #3399ff;
+  width: 70px;
+  height: 35px;
+  font-weight: 700;
+  font-size: 14px;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 40px;
+  margin-bottom: 9px;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.post-button:hover {
+  background-color: rgba(28, 142, 218);
+}
+
+.profile-box1 {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%; 
+  border: 1px solid #444; 
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -10px;
+  margin-top: -5px;
+  
+}
+
+.profile-box1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 50%; 
+}

@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #000;
+        
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 320px; 
+  height: 100vh; 
+  position: fixed; 
+  top: 0;
+  left: 0;
+  background-color: #000; 
+  padding: 20px; 
+  border-right: 1px solid #444; 
+}
+
+.logo-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -15px;
+  margin-left: 67px;
+}
+
+.logo-btn button {
+  background: transparent;
+  border: none;
+  padding: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 54px; 
+  height: 54px; 
+}
+
+.logo-btn button:hover {
+  background: #222; 
+}
+
+.logo-btn svg {
+  width: 35px; 
+  height: 35px; 
+  fill: #fff; 
+}
+
+.nav-bar {
+  margin-top: 8px;
+  margin-left: 67px;
+}
+
+.nav-bar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar li {
+  margin-bottom: 3px;
+}
+
+.nav-bar button {
+  display: flex;
+  align-items: center;  
+  background: transparent;
+  border: 0px;
+  border-radius: 50px;
+  padding: 10px;
+  padding-right: 15px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.nav-bar button:hover {
+  background: #222;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar svg {
+  width: 35px;
+  height: 35px;
+  fill: #fff;
+}
+
+.nav-bar .nav-text {
+  font-size: 25px;  
+  color: #fff;
+  font-weight: bold;
+  margin-left: 20px;  
+}
+
+
+.post button {
+    background-color: #3399ff;
+    width: 230px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    justify-content: center;
+    margin-left: 70px;
+    margin-top: 12px;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;  
+    cursor: pointer;     
+}
+
+.post button:hover {
+    background-color: rgba(28, 142, 218);
+}
+
+.profile-box-logout {
+  background-color: transparent; 
+  width: 220px;
+  height: 64px; 
+  font-weight: 400;
+  font-size: 15px;
+  justify-content: center;
+  margin-left: 70px;
+  margin-top: 25px;
+  color: #fff; 
+  border-radius: 50px; 
+  padding: 8px; 
+  cursor: pointer;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: left;
+  
+}
+
+.profile-box-logout:hover {
+  background-color: rgba(30, 156, 241, .2); 
+}
+
+.profile-box-logout img {
+  width: 55px;
+  height: 55px;
+  margin-right: 15px;
+  margin-left: -28px;
+  margin-bottom: 40px;
+  margin-top: 4px;
+  border-radius: 100%; /* Keep image circular */
+  border: 1px solid #fff; 
+}
+
+.profile-box-logout .user-name {
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: left;
+  margin-top: 6px;
+  margin-bottom: 4px;
+}
+
+.profile-box-logout .log-out {
+  color: #fff;
+  text-decoration: none;
+  text-align: left;
+  font-size: 1.1rem;
+  
+}
+
+.profile-box-logout .log-out:hover {
+  color: #3399ff;
+  font-weight: bold;
+}

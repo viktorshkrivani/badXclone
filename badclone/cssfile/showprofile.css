@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #000;
+}
+
+.main-profile-page {
+  position: sticky;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.91); 
+  padding: 1rem;
+  border-bottom: 1px solid #444; 
+  color: #fff;
+  max-width: 578px;
+  margin-left: 361px;
+  margin-right: auto;
+  font-size: 10px;
+  display: flex;
+}
+
+.main-profile-page h1 {
+    margin-left: 12px;
+    margin-top: 5px;
+}
+
+.follow-button {
+    background-color: #fff;
+    color: #000;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+    margin-right: 10px;
+    display: inline-block; 
+    margin-left: 340px;
+    
+}
+
+.follow-button:hover {
+    background: rgba(255, 255, 255, 0.9); 
+}
+
+.cover-picture {
+    width: 618px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #444;
+    margin-bottom: 20px;
+    margin-left: 361px;
+    position: relative; 
+}
+
+.profile-box-logout-mainprofile img {
+    width: 200px;
+    height: 200px;
+    margin-right: 15px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-top: 180px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    position: absolute; 
+    top: 20px; 
+    left: 20px; 
+    display: block;
+}
+
+.profile-info {
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    color: #fff;
+    margin-left: 600px;
+    margin-top: 130px;
+}
+
+.profile-info p, .profile-info h4 {
+    margin-bottom: 7px;
+    margin-top: -4px;
+}
+
+.profile-info p {
+    color: #777;
+    font-size: 15px;
+}
+
+.profile-info p span {
+    color: #777;
+    font-size: 13px;
+}
+
+.profile-info h4 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    margin-right: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profile-info h4 span {
+    color: #666;
+    margin-left: 0;
+    margin-top: 5px;
+}
+
+.profile-info .follow-container {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+}
+
+.secondary-profile-header {
+  position: sticky;
+  top: 0;
+  background-color: #000;
+  border-top: 1px solid #444;
+ border-bottom: 0px solid #444;
+  color: #fff;
+  max-width: 619px;
+  height: 50px;
+  margin-left: 361px;
+  margin-right: auto;
+  margin-top: 125px;
+  margin-bottom: 25px;
+  font-size: 10px;
+  display: flex;
+}
+
+.secondary-profile-header h1 {
+  margin-left: 32px;
+  margin-top: 12px;
+  color: #fff;
+}
+
+.tweet-header {
+  display: flex;
+  align-items: center;
+}
+
+.profile-box2 {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%; 
+  border: 1px solid #444; 
+  overflow: hidden; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -65px;
+  margin-left: 17px;
+}
+
+.profile-box2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 50%; 
+}
+
+.tweet {
+  border-top: 1px solid #444;
+  padding: 10px;
+  margin-top: -19px;
+  margin-bottom: 40px;
+  margin-left: 360px;
+  margin-right: auto;
+  background-color: transparent;
+  max-width: 601px; 
+}
+
+.tweet img {
+  max-width: 485px;
+  max-height: 580px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-left: 78px;
+  margin-bottom: 20px;
+  margin-top: 13px;
+}
+
+.tweet p {
+    color: #fff;
+    font-size: 14px;
+    margin-left: 80px;
+    margin-bottom: -22px;
+    padding-bottom: 24px;
+    margin-top: -23px;
+}
+
+.tweet p small {
+  color: #fff;
+  font-size: 8px;
+  margin-top: 10px;
+  margin-bottom: 20px ;
+}
+
+.tweet p strong {
+  color: #fff;
+  font-size: 16px;
+}
+
+.like-btn, .unlike-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 17px;
+    margin-bottom: -10px;
+    margin-left: 80px;
+    color: #536471; 
+}
+
+.like-btn.liked, .unlike-btn {
+    color: #E0245E; 
+}
+
+.like-btn svg, .unlike-btn svg {
+    width: 24px;
+    height: 24px;
+    transition: fill 0.2s ease;
+}
+
+.like-icon {
+    fill: #536471; 
+}
+
+.unlike-icon {
+    fill: #E0245E; 
+}
+
+.like-btn:hover svg {
+    fill: #E0245E; 
+}
+
+.like-btn:active svg, .unlike-btn:active svg {
+    transform: scale(0.9);
+}
+
+.likes-count {
+    font-size: 12px;
+    color: #536471;
+    margin-left: 4px;
+}
+
+.like-btn + .likes-count {
+    color: #536471; 
+}
+
+.unlike-btn + .likes-count {
+    color: #E0245E; 
+}
